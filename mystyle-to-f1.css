@@ -492,7 +492,7 @@ a:hover {
 
 /* Form buttons */
 .inputbutton {
-	background: url(../images/button.png) bottom left no-repeat;
+	background: url(http://www.cbcmediasite.com/yallschurch/images/button.png) bottom left no-repeat;
 	border: none;
 	color: #efdcb9;
 	display: block;
@@ -506,7 +506,7 @@ a:hover {
 }
 
 .inputbutton:hover {
-	background: url(../images/button.png) top left no-repeat;
+	background: url(http://www.cbcmediasite.com/yallschurch/images/button.png) top left no-repeat;
 	color: #ccc;
 }
 
