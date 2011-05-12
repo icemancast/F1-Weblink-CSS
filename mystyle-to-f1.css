@@ -1,0 +1,657 @@
+/* RESET ALL */
+/*------------------------------------------------------------------------
+
+version:	1.0
+created:	2009-10-08
+author:		icemancast
+email:		icemancast@gmail.com
+site:		http://www.icemancast.com
+
+------------------------------------------------------------------------*/
+*, blockquote, body, code, fieldset, form, h1, h2, h3, h4, h5, h6, html, input, legend, li, ol, p, textarea, td, th, ul { 
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+sup{
+	vertical-align: text-top;
+}
+
+sub{
+	vertical-align: text-bottom;
+}
+
+caption, th {
+	text-align: left;
+}
+
+li {
+	list-style:none;
+}
+
+/* Png Hack for IE6 */
+/*
+	TODO Add iepngfix file to images folder
+*/
+img, div { 
+	behavior: url(../images/iepngfix.htc)
+}
+
+/* Typography */
+body {
+	font: 13px/1.231 Arial, Helvetica, sans-serif;
+	*font-size:small;
+	*font:x-small;
+}
+
+select, input, button, textarea {
+	font: 99% Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+
+caption, cite, code, em, strong, th {
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+code {
+	font: inherit;
+	*font-size:108%;
+	line-height:100%;
+}
+
+/* Widths
+------------------------------------------------------------------------*/
+.oldSchool {
+	width: 778px;
+}
+
+.site-width {
+	width: 980px;
+}
+
+.width980{
+	width: 980px;
+}
+
+.liquid{
+	width: auto;
+	margin: 0;
+}
+
+/* Columns and divs structures
+------------------------------------------------------------------------*/
+#wrapper {
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* Content area
+------------------------------------------------------------------------*/
+#content {
+	float: left;
+}
+
+#main-content {
+	overflow: hidden;
+}
+
+.margin10 {
+	margin: 10px;
+}
+
+.margin5 {
+	margin: 5px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float: right;
+}
+
+#footer {
+	clear: both;
+	margin: 0px auto;
+}
+
+/* Grids
+------------------------------------------------------------------------*/
+.block {
+	float: left;
+}
+
+.size1of1 {
+	float:none;
+}
+
+.size1of2 {
+	width: 50%;
+}
+
+.size1of3 {
+	width: 33.33333%;
+}
+
+.size2of3 {
+	width: 66.66666%;
+}
+
+.size1of4 {
+	width: 25%;
+}
+
+.size3of4 {
+	width:75%;
+}
+
+.size1of5 {
+	width:20%;
+}
+
+.size2of5 {
+	width: 40%;
+}
+
+.size3of5 {
+	width:60%;
+}
+
+.size4of5 {
+	width:80%;
+}
+
+.last-block {
+	float: none;
+	width:auto;
+}
+
+.media-block {
+	width: auto;
+}
+
+/* Set spacing */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote {
+	padding: 10px;
+}
+
+table h1,table h2,table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl, ul h1,ul h2, ul h3, ul h4, ul h5, ul h6, ul p, ul ul, ul ol, ul dl, ol h1, ol h2, ol h3, ol h4, ol h5, ol h6, ol p, ol ul, ol ol, ol dl {
+	padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-bottom: 0px;
+}
+
+h6, .h6 {
+	font-style: italic;
+	font-weight: normal;
+}
+
+h1, .h1 {
+	font-size: 147%;
+}
+
+h2, .h2 {
+	font-size: 136%;
+}
+
+h3, .h3 {
+	font-size: 126%;
+}
+
+h4, .h4 {
+	font-size: 116%;
+}
+
+h5, .h5 {
+	font-size: 108%;
+}
+
+h6, .h6 {
+	font-size: 108%;
+}
+
+img {
+	display: block;
+	padding-bottom: 0px;
+}
+
+/* Give the power back to the peeps */
+em, cite {
+	font-style: italic;
+}
+
+cite {
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+hr {
+	border-width: 0 0 3px 0;
+	margin: 20px 10px 10px 10px;
+}
+
+#main-content ul li ul {
+	margin-bottom: 15px;
+}
+
+#main-content ul li ul li {
+	list-style-type: circle !important;
+}
+
+.no-bullets {
+	list-style-type: none !important;
+}
+
+/* Table properties */
+.table {
+	border-right: solid 1px transparent;
+	padding: 20px;
+	position: relative;
+	vertical-align: top;
+	zoom: 1;
+}
+
+table.table {
+	width: 100%;
+}
+
+.table caption {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.table th, .table td {
+	padding: 5px 10px;
+	vertical-align: top;
+}
+
+.text-center th, .text-center td {
+	text-align: center;
+}
+
+.text-left th, .text-left td {
+	text-align: left;
+}
+
+.text-right th, .text-right td {
+	text-align: right;
+}
+
+.text-top th, .text-top th {
+	vertical-align: top;
+}
+
+.text-middle th, .text-middle th {
+	vertical-align: middle;
+}
+
+.text-bottom th, .text-bottom th {
+	vertical-align: bottom;
+}
+
+.table th {
+	font-weight: bold
+}
+
+code, blockquote {
+	border-collapse: collapse;
+	display: block;
+	margin: 15px;
+	padding: 5px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	text-indent: 5px;
+	padding-bottom: 15px;
+}
+
+/* Site specific extensions below
+------------------------------------------------------------------------*/
+
+/* Preload image backgrounds */
+.loadimages {
+	height: 1px;
+	left: -10px;
+	overflow: hidden;
+	position: absolute;
+	top: -10px;
+	width: 1px;
+}
+
+.no-background {
+	background: none !important;
+}
+
+.black {
+	color: #000;
+}
+
+.white {
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+.form-left fieldset {
+	border: none;
+}
+
+.form-left label {
+	float: left;
+	width: 150px !important;
+}	
+
+.form-left input {
+	margin-top: 0px !important;
+}
+
+.form-left p {
+	margin-bottom: 10ppx;
+}
+
+/* ====================================================================
+=======================================================================
+=======================================================================
+=======================================================================
+=======================================================================
+*/
+
+body{
+	background: #463105 url(http://cbcmediasite.com/yallschurch/images/body.jpg) top repeat-x;
+	margin:0;
+	margin-top: 0;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+p {
+	padding: 10px;
+}
+
+#frmLogin {
+	margin: 0px auto;
+	width: 980px;
+}
+
+.HeaderContainer{
+	background: url(http://cbcmediasite.com/yallschurch/images/logo.jpg) no-repeat;
+	border: 0px;
+	border-collapse:collapse;
+	height: 223px;
+	width: 980px;
+}
+
+.HeaderTitleImageContainer{
+	background: url(http://cbcmediasite.com/yallschurch/images/header.jpg) right no-repeat;
+	height: 223px;
+}
+
+/*table td {
+	border: 1px solid #ccc;
+}*/
+
+table.pageTable {
+	background: #dbc89e;
+	border-collapse: collapse;
+	border-color: #dbc89e !important;
+	margin: 0px auto;
+	width: 980px;
+}
+
+.pageTableContentCell {
+	background: #dbc89e;
+	font-size: 105%;
+	height: 350px;
+	width: 980px !important;
+}
+
+a {
+	color: #265c99;
+}
+
+a:hover {
+	color: #4d82be;
+	text-decoration: none;
+}
+
+.bodycopy15bold {
+	color: #b64f16;
+	font-size: 147% !important;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#tblConfirmation {
+	margin: 10px;
+	padding: 15px;
+	vertical-align: top;
+	width: 85%;
+}
+
+.pageTableFooterCell {
+	background: url(http://cbcmediasite.com/yallschurch/images/footer.jpg) bottom no-repeat;
+	color: #603813;
+	font-size: 75%;
+	height: 300px;
+	margin: 0px;
+	padding-top: 118px;
+	width: 980px;
+}
+
+/* Form buttons */
+.inputbutton {
+	background: url(../images/button.png) bottom left no-repeat;
+	border: none;
+	color: #efdcb9;
+	display: block;
+	float: left;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	height: 39px;
+	margin: 10px 5px;
+	text-decoration: none;
+	width: 225px;
+}
+
+.inputbutton:hover {
+	background: url(../images/button.png) top left no-repeat;
+	color: #ccc;
+}
+
+#btnUpdate, #btnUpdateIndividual {
+	clear: both;
+	float: left !important;
+	margin: 10px 0px 0px 0px !important;
+}
+
+#btnContinue {
+	float: right;
+}
+
+#tblConfirmation input {
+	margin: 5px 0px 20px 0px;;
+}
+
+table#dgFormIndividuals {
+	padding: 5px;
+	width: 750px !important;
+}
+
+#dgFormIndividuals td {
+	padding: 5px;
+}
+
+.TopGroupTD {
+	background: #3c2904;
+	color: #fff;
+	padding: 10px;
+}
+
+.bodycopy img {
+	float: left;
+}
+
+.DgAlternatingItem {
+	background: #cbb27c;
+}
+
+.dgItem {
+	width: 850px !important;
+}
+
+.dgItem td {
+	padding: 5px 10px 5px 10px;
+}
+
+.dgItem img {
+	margin: 2px auto 2px auto;
+}
+
+.icon {
+	display: inline-block;
+	height: 20px;
+	padding-left: 25px;
+}
+
+.icon-pdf {
+	background: url(http://www.cbcmediasite.com/yallschurch/images/icon-pdf.png) left no-repeat;
+}
+
+.ValidationBorder {
+	background: #e4d23d;
+	border-collapse: collapse;
+	border: 1px solid #720610;
+	color: #720610;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 15px;
+	width: 850px;
+}
+
+.ValidationBorder td {
+	padding: 7px;
+}
+
+.inputLabel, span.inputLabel {
+	padding: 7px 0px 7px 0px;
+	width: 120px;
+}
+
+.inputbox {
+	width: 150px;
+}
+
+.DTB{
+	/* this is used in the following places:
+			ActivityFinder/ActivityContact.aspx
+			Contribution/ContributionProfile.aspx
+			Contribution/OnlineContribution.aspx
+			Registration/Payment.aspx
+			Registration/PersonalInfo.aspx			
+			SmallGroup/SgAddNewMember.aspx
+			SmallGroup/SgFindMember.aspx
+			Volunteer/VaPersonalInfo.aspx
+			NewUser.aspx
+	*/
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #f1f1f1;
+	font-family: tahoma, arial, tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #212121;
+}
+
+.MYPMonthYearPicker{
+   border-right: gray 1px solid;
+   border-top: gray 1px solid;
+   font-size: 8pt;
+   border-left: gray 1px solid;
+   border-bottom: gray 1px solid;
+   font-family: Arial;
+   background-color: white;
+}
+.MYPMonthYearPicker TABLE{
+   font-size: 8pt;
+   font-family: Arial;
+   background-color: white;
+}
+.MYPMonthTable{
+}
+.MYPYearTable{
+}
+.MYPMonthCell{
+   cursor: pointer;
+   cursor: hand;
+}
+.MYPSelectedMonthCell{
+   background-color: #999966;
+   cursor: pointer;
+   cursor: hand;
+   color: white;
+}
+.MYPYearCell{
+   cursor: pointer;
+   cursor: hand;
+}
+.MYPSelectedYearCell{
+   cursor: pointer;
+   cursor: hand;
+   background-color: #999966;
+   color: white;
+}
+.MYPOutOfRangeCell{
+   color: Gray;
+}
