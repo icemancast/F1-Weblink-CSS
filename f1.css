@@ -7,6 +7,19 @@ body{
 	margin-bottom: 0;
 }
 
+.HeaderContainer{
+	background: url(http://cbcmediasite.com/yallschurch/images/logo.jpg) no-repeat;
+	border: 0px;
+	border-collapse:collapse;
+	height: 223px;
+	width: 980px;
+}
+
+.HeaderTitleImageContainer{
+	background: url(http://cbcmediasite.com/yallschurch/images/header.jpg) right no-repeat;
+	height: 223px;
+}
+
 p {
 	padding: 10px;
 }
