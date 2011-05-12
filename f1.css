@@ -1,0 +1,250 @@
+body{
+	background: #463105 url(http://cbcmediasite.com/yallschurch/images/body.jpg) top repeat-x;
+	margin:0;
+	margin-top: 0;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+
+p {
+	padding: 10px;
+}
+
+#frmLogin {
+	margin: 0px auto;
+	width: 980px;
+}
+
+.HeaderContainer{
+	background: url(http://cbcmediasite.com/yallschurch/images/logo.jpg) no-repeat;
+	border: 0px;
+	border-collapse:collapse;
+	height: 223px;
+	width: 980px;
+}
+
+.HeaderTitleImageContainer{
+	background: url(http://cbcmediasite.com/yallschurch/images/header.jpg) right no-repeat;
+	height: 223px;
+}
+
+/*table td {
+	border: 1px solid #ccc;
+}*/
+
+table.pageTable {
+	background: #dbc89e;
+	border-collapse: collapse;
+	border-color: #dbc89e !important;
+	margin: 0px auto;
+	width: 980px;
+}
+
+.pageTableContentCell {
+	background: #dbc89e;
+	font-size: 105%;
+	height: 350px;
+	width: 980px !important;
+}
+
+a {
+	color: #265c99;
+}
+
+a:hover {
+	color: #4d82be;
+	text-decoration: none;
+}
+
+.bodycopy15bold {
+	color: #b64f16;
+	font-size: 147% !important;
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 10px;
+	padding: 10px;
+}
+
+#tblConfirmation {
+	margin: 10px;
+	padding: 15px;
+	vertical-align: top;
+	width: 85%;
+}
+
+.pageTableFooterCell {
+	background: url(http://cbcmediasite.com/yallschurch/images/footer.jpg) bottom no-repeat;
+	color: #603813;
+	font-size: 75%;
+	height: 300px;
+	margin: 0px;
+	padding-top: 118px;
+	width: 980px;
+}
+
+/* Form buttons */
+.inputbutton {
+	background: url(../images/button.png) bottom left no-repeat;
+	border: none;
+	color: #efdcb9;
+	display: block;
+	float: left;
+	font-size: 12px;
+	letter-spacing: 0.1em;
+	height: 39px;
+	margin: 10px 5px;
+	text-decoration: none;
+	width: 225px;
+}
+
+.inputbutton:hover {
+	background: url(../images/button.png) top left no-repeat;
+	color: #ccc;
+}
+
+#btnUpdate, #btnUpdateIndividual {
+	clear: both;
+	float: left !important;
+	margin: 10px 0px 0px 0px !important;
+}
+
+#btnContinue {
+	float: right;
+}
+
+#tblConfirmation input {
+	margin: 5px 0px 20px 0px;;
+}
+
+table#dgFormIndividuals {
+	padding: 5px;
+	width: 750px !important;
+}
+
+#dgFormIndividuals td {
+	padding: 5px;
+}
+
+.TopGroupTD {
+	background: #3c2904;
+	color: #fff;
+	padding: 10px;
+}
+
+.bodycopy img {
+	float: left;
+}
+
+.DgAlternatingItem {
+	background: #cbb27c;
+}
+
+.dgItem {
+	width: 850px !important;
+}
+
+.dgItem td {
+	padding: 5px 10px 5px 10px;
+}
+
+.dgItem img {
+	margin: 2px auto 2px auto;
+}
+
+.icon {
+	display: inline-block;
+	height: 20px;
+	padding-left: 25px;
+}
+
+.icon-pdf {
+	background: url(http://www.cbcmediasite.com/yallschurch/images/icon-pdf.png) left no-repeat;
+}
+
+.ValidationBorder {
+	background: #e4d23d;
+	border-collapse: collapse;
+	border: 1px solid #720610;
+	color: #720610;
+	font-weight: bold;
+	line-height: 18px;
+	margin: 15px;
+	width: 850px;
+}
+
+.ValidationBorder td {
+	padding: 7px;
+}
+
+.inputLabel, span.inputLabel {
+	padding: 7px 0px 7px 0px;
+	width: 120px;
+}
+
+.inputbox {
+	width: 150px;
+}
+
+.DTB{
+	/* this is used in the following places:
+			ActivityFinder/ActivityContact.aspx
+			Contribution/ContributionProfile.aspx
+			Contribution/OnlineContribution.aspx
+			Registration/Payment.aspx
+			Registration/PersonalInfo.aspx			
+			SmallGroup/SgAddNewMember.aspx
+			SmallGroup/SgFindMember.aspx
+			Volunteer/VaPersonalInfo.aspx
+			NewUser.aspx
+	*/
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #f1f1f1;
+	font-family: tahoma, arial, tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #212121;
+}
+
+.MYPMonthYearPicker{
+   border-right: gray 1px solid;
+   border-top: gray 1px solid;
+   font-size: 8pt;
+   border-left: gray 1px solid;
+   border-bottom: gray 1px solid;
+   font-family: Arial;
+   background-color: white;
+}
+.MYPMonthYearPicker TABLE{
+   font-size: 8pt;
+   font-family: Arial;
+   background-color: white;
+}
+.MYPMonthTable{
+}
+.MYPYearTable{
+}
+.MYPMonthCell{
+   cursor: pointer;
+   cursor: hand;
+}
+.MYPSelectedMonthCell{
+   background-color: #999966;
+   cursor: pointer;
+   cursor: hand;
+   color: white;
+}
+.MYPYearCell{
+   cursor: pointer;
+   cursor: hand;
+}
+.MYPSelectedYearCell{
+   cursor: pointer;
+   cursor: hand;
+   background-color: #999966;
+   color: white;
+}
+.MYPOutOfRangeCell{
+   color: Gray;
+}
