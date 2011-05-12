@@ -1,0 +1,1077 @@
+.VersionNumber
+{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #c5c5c5;
+}
+.pageTable
+{
+}
+.pageTableContentCell
+{
+}
+.pageTableFooterCell
+{
+}
+
+.FormBuilderStatusSelectedText 
+{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #336699;
+}
+
+.ErrorMessageTable{
+	/*	This is used for the online giving
+		section. When the schedule is disabled
+		and there was an error, this is the style
+		that will show for the error message pop up.
+		
+		NOTE: The background-color must be set
+	*/
+	background-color: #f5f5f5;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	color: #ffffff;
+	padding-right:5px;
+}
+.PopupAlert {
+	 BORDER-RIGHT: black 1px solid;
+	 BORDER-TOP: black 1px solid; 
+	 LEFT: 0px; 
+	 BORDER-LEFT: black 1px solid; 
+	 BORDER-BOTTOM: black 1px solid; 
+	 TOP: 0px;
+	 BACKGROUND-COLOR: infobackground;
+	 font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000; 
+}
+.PopupAlertHeaderSection {
+	BORDER-BOTTOM: black 1px solid;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000; 
+}
+.PopupAlertContentSection {
+	PADDING-RIGHT: 5px; 
+	PADDING-LEFT: 5px; 
+	PADDING-BOTTOM: 5px; 
+	PADDING-TOP: 5px;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000; 
+}
+/*Input Labels*/
+.inputLabel{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	padding-left:2px;
+}
+
+/* Activity Finder Styles */
+.ActivityFinderTable{
+	border-color:#000000;
+	border-style:solid;
+	border-width:1px;
+	border-collapse:collapse;
+	width:100%;
+}
+.ActivityFinderHeaderTD{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;	
+	color: #ffffff;
+	font-weight:bold;
+	background-color:#7f7f7f;
+	padding-left:5px;
+	padding-bottom:2px;
+	padding-top:2px;
+	white-space: nowrap;
+}	
+.ActivityFinderTD{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	color: #000000;
+	padding:3px;
+}
+.ActivityFinderFooterTD{
+	text-align:right;
+	padding-bottom:5px;
+}
+
+/* CSS classes that are used within each module header.
+	Below is an example of the how the header portion of all integration modules
+	is structured. Certain style elements/ properties are defined by the layout
+	template and are not allowed to be overridden.
+	<TABLE class="HeaderContainer" width="100%" cellpadding="0" cellspacing="0" border="0">
+		<TR>
+			<TD class="HeaderTitleImageContainer"><IMG class="HeaderTitleImage" src="[dyanmically set at runtime]"></TD>
+		</TR>
+		<TR>
+			<TD class="HeaderSpacerTop"><IMG src="spacer.gif" height="1"></TD>
+		</TR>
+		<TR>
+			<TD class="HeaderMenuContainer"></TD>
+		</TR>
+		<TR>
+			<TD class="HeaderSpacerBottom"><IMG src="spacer.gif" height="1"></TD>
+		</TR>
+	</TABLE>
+*/
+.HeaderContainer{
+	background-color:#7f7f7f;
+	border: 0px;
+	border-collapse:collapse;
+	width:100%;
+}
+
+.HeaderTitleImageContainer{
+	background-color:#636363;
+	padding: 0px; /*cellpadding*/
+	margin: 0px; /*cellspacing*/
+}
+.HeaderMenuContainer{
+	background-color:#7f7f7f;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	color: #ffffff;
+	padding-right:5px;
+	font-weight:bold;
+	height:19px;
+	margin: 0px; /*cellspacing*/
+}
+.HeaderTitleImage{
+	width:600px;
+	height:65px;
+	border:0px;
+}
+.HeaderSpacerTop{
+	background-color:#a7a7a7;
+	padding: 0px; /*cellpadding*/
+	margin: 0px; /*cellspacing*/
+}
+.HeaderSpacerBottom{
+	background-color:#000000;
+	padding: 0px; /*cellpadding*/
+	margin: 0px; /*cellspacing*/
+}
+
+
+/*
+General styles
+*/
+
+
+.EmailGroupListDiv{
+	 overflow: auto;
+	 height:300px;
+}
+.ActivityDetailListDiv{
+	 overflow: auto;
+	 height:225px;
+}
+
+body{
+	background-color: #f5f5f5;
+	margin:0;
+	margin-top: 0;
+	margin-left: 0px;
+	margin-right: 0;
+	margin-bottom: 0;
+}
+TD{
+	
+}
+
+.blankbodycopy{
+	color: #f1f1f1;
+}
+.bodycopy{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+}
+a.bodycopy{
+	font-size:11px;
+	font-family: tahoma, arial, helvetica;
+	color:#000000;
+	text-decoration:underline;
+}
+A:hover.bodycopy{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited.bodycopy{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited:hover.bodycopy{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active.bodycopy{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active:hover.bodycopy{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.bodycopybold{
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	font-weight:bold;
+}
+a.bodycopybold{
+	font-size:11px;
+	font-family: tahoma, arial, helvetica;
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+}
+A:hover.bodycopybold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited.bodycopybold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited:hover.bodycopybold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active.bodycopybold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active:hover.bodycopybold{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.bodycopy15{
+	font-size: 15px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+}
+a.bodycopy15{
+	font-size:15px;
+	font-family: tahoma, arial, helvetica;
+	color:#000000;
+	text-decoration:underline;
+}
+A:hover.bodycopy15{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited.bodycopy15{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited:hover.bodycopy15{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active.bodycopy15{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active:hover.bodycopy15{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.bodycopy15bold{
+	font-size: 15px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	font-weight:bold;
+}
+a.bodycopy15bold{
+	font-size:15px;
+	font-family: tahoma, arial, helvetica;
+	color:#000000;
+	text-decoration:underline;
+	font-weight:bold;
+}
+A:hover.bodycopy15bold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited.bodycopy15bold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited:hover.bodycopy15bold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active.bodycopy15bold{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active:hover.bodycopy15bold{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.bodycopy9{
+	font-size: 9px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+}
+a.bodycopy9{
+	font-size:9px;
+	font-family: tahoma, arial, helvetica;
+	color:#000000;
+	text-decoration:underline;
+}
+A:hover.bodycopy9{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited.bodycopy9{
+	color:#000000;
+	text-decoration:underline;
+}
+A:visited:hover.bodycopy9{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active.bodycopy9{
+	color:#000000;
+	text-decoration:underline;
+}
+A:active:hover.bodycopy9{
+	color:#000000;
+	text-decoration:underline;
+}
+
+.errorMessage{
+	font-size: 13px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color:Red;
+}
+
+/* input control classes */
+.inputbox{
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #f1f1f1;
+	font-family: tahoma, arial, tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #212121;
+}
+.inputradio{
+	border-width: 0px;
+	padding :0px,0px,0px,0px;
+}
+.inputdrop{
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #f1f1f1;
+	font-family: tahoma, arial, tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #212121;
+}
+/*
+	this is used as a visual for when the individual clicks a button
+	the button will turn disabled and the color schema changes
+*/
+.disabledinputbutton 
+{
+	border-width: 1px;
+	border-color: #cccccc;
+	background-color: FFFFFF;
+	font-family: tahoma, arial, tahoma;
+	font-size: 10px;
+}
+	
+.inputbutton{
+	border-width: 1px;
+	border-color: #cccccc;
+	background-color: #333333;
+	font-family: tahoma, arial, tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ffffff;
+}
+.contributionLogoutButton{
+	border-width: 1px;
+	border-color: #cccccc;
+	background-color: #333333;
+	font-family: tahoma, arial, tahoma;
+	font-size: 10px;
+	font-weight: bold;
+	color: #ADD8E6;
+	visibility:visible;
+}
+.RTBMenu{
+	/* this is used in the following places:
+			Contact/OnlineContact.aspx
+			Registration/Payment.aspx
+			Registration/PersonalInfo.aspx			
+			SmallGroup/EmailGroup.aspx			
+	*/
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #f1f1f1;
+	font-family: tahoma, arial, tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #212121;
+}
+
+/* Date picker control */
+.DTB{
+	/* this is used in the following places:
+			ActivityFinder/ActivityContact.aspx
+			Contribution/ContributionProfile.aspx
+			Contribution/OnlineContribution.aspx
+			Registration/Payment.aspx
+			Registration/PersonalInfo.aspx			
+			SmallGroup/SgAddNewMember.aspx
+			SmallGroup/SgFindMember.aspx
+			Volunteer/VaPersonalInfo.aspx
+			NewUser.aspx
+	*/
+	border-width: 1px;
+	border-color: #ffffff;
+	background-color: #f1f1f1;
+	font-family: tahoma, arial, tahoma;
+	font-size: 11px;
+	font-weight: normal;
+	color: #212121;
+}
+
+/* DataGrid controls */
+.DgHeader{
+	/* this is used in the following places:
+			ActivityFinder/ActivityFinder.aspx
+			Contribution/OnlineContribution.aspx
+			Registration/EventRegistration.aspx
+			Registration/Summary.aspx			
+			SmallGroup/SgManageContact.aspx
+			SmallGroup/SgMembers.aspx
+			SmallGroup/SgViewContacts.aspx
+	*/
+	background-color:#7f7f7f;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight:bold;
+}
+.DgItem{
+	/* this is used in the following places:
+			ActivityFinder/ActivityFinder.aspx
+			Contribution/OnlineContribution.aspx
+			Registration/Confirmation.aspx
+			Registration/EventRegistration.aspx
+			Registration/Payment.aspx
+			Registration/Summary.aspx
+			SmallGroup/SgEmailGroup.aspx			
+			SmallGroup/SgManageContact.aspx
+			SmallGroup/SgMembers.aspx
+			SmallGroup/SgViewContacts.aspx
+			Volunteer/VaReference.aspx
+	*/
+	background-color:#ffffff;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+}
+.DgEditItem{
+	/* this is used in the following places:			
+			SmallGroup/SgMembers.aspx
+	*/
+	background-color: #cccccc;
+	color: #ffffff;
+}
+.DgAlternatingItem{
+	/* this is used in the following places:
+			Contribution/OnlineContribution.aspx
+			Registration/Confirmation.aspx
+			Registration/Payment.aspx
+			Registration/EventRegistration.aspx
+			Registration/Summary.aspx
+			ActivityFinder/ActivityFinder.aspx
+			SmallGroup/SgManageContact.aspx
+			SmallGroup/SgMembers.aspx
+			SmallGroup/SgViewContacts.aspx
+	*/
+	background-color:#e3e3e3;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+}
+
+.DgTotalFooter 
+{
+	/* this is used in the following places:
+			FormBuilder/FormOrder.aspx
+			FormBuilder/Confirmation.aspx
+	*/
+	background-color: #FFFFCC;
+	font-family: tahoma, arial, helvetica;
+	font-size: 11px;
+	color: Black
+}
+
+.TopGroupTD{
+	/* this is used in the following places:
+			ActivityFinder/ActivityContact.aspx
+			Contact/OnlineContact.aspx
+			Contribution/ContributionProfile.aspx
+			NewUser.aspx
+			Registration/EventRegistration.aspx
+			Registration/Payment.aspx
+			Registration/PersonalInfo.aspx
+			SmallGroup\SgAddNewHouseholdMember.aspx
+			SmallGroup\SgAddNewMember.aspx
+			SmallGroup\SgEmailGroup.aspx
+			SmallGroup\SgFaq.aspx
+			SmallGroup\SgFindMember.aspx
+			SmallGroup\SgHome.aspx
+			SmallGroup/SgManageContact.aspx
+			SmallGroup/SgMembers.aspx
+			SmallGroup\SgPostAttendance.aspx
+			SmallGroup\SgViewAttendance.aspx
+			SmallGroup/SgViewContacts.aspx
+			Volunteer\VaConfirmation.aspx
+			Volunteer\VaPersonalInfo.aspx
+			Volunteer\VolunteerApplication.aspx
+			Volunteer\VaReference.aspx
+			Volunteer\VolunteerApplication.aspx
+	*/
+	background-color:#7f7f7f;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	color: #ffffff;
+	padding-right:5px;
+	font-weight:bold;
+}
+.SubGroupTD{
+	/* used in the following places:
+		Login.aspx
+		LoginHelp.aspx
+		NewPassword.aspx
+		NewUser.aspx
+		SmallGroup\SgFindMember.aspx
+		SmallGroup\SgManageMember.aspx.cs
+	*/
+	background-color:#7f7f7f;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	color: #ffffff;
+	white-space: nowrap;
+	font-weight:bold;
+}
+.InAttendanceTD{
+	/* used in the following places:
+		SmallGroup\SgViewAttendance.aspx
+	*/
+	background-color:#B1CAB1;
+	border-left:solid 1px black;
+	border-right:solid 1px black;
+	border-bottom:solid 1px black;
+}
+.NotInAttendanceTD{
+	/* used in the following places:
+		SmallGroup\SgViewAttendance.aspx
+	*/
+	background-color:#f1f1f1;
+	border-left:solid 1px black;
+	border-right:solid 1px black;
+	border-bottom:solid 1px black;
+}
+.AttendanceDateTD{
+	/* used in the following places:
+		SmallGroup\SgViewAttendance.aspx
+	*/
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	background-color:#f1f1f1;
+	border-left:solid 1px black;
+	border-bottom:solid 1px black;
+	padding-left:4px;
+	padding-right:2px;
+	padding-bottom:1px;
+	padding-top:5px;
+}
+.AttendeeDateTD{
+	/* used in the following places:
+		SmallGroup\SgViewAttendance.aspx
+	*/
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	background-color:#f1f1f1;
+	border-bottom:solid 1px black;	
+	border-top:solid 1px black;
+	padding-right:5px;
+	padding-left:5px
+}
+.TotalAttendanceTitleTD{
+	/* used in the following places:
+		SmallGroup\SgViewAttendance.aspx
+	*/
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	background-color:#f1f1f1;
+	border-bottom:solid 1px black;	
+	border-top:double 3px black;
+	border-right:solid 1px black;
+	padding-right:5px;
+	padding-left:5px
+}
+.TotalAttendanceTD{
+	/* used in the following places:
+		SmallGroup\SgViewAttendance.aspx
+	*/
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #000000;
+	background-color:#f1f1f1;
+	border-bottom:solid 1px black;	
+	border-top:double 3px black;
+	border-right:solid 1px black;
+	text-align:right;
+	padding-right:5px;
+}
+
+.TopGroupTable{
+	/* used in the following places:
+		ActivityFinder\ActivityContact.aspx
+		Contact/OnlineContact.aspx
+		Contribution/ContributionProfile.aspx
+		Registration\Confirmation.aspx
+		Registration/EventRegistration.aspx
+		Registration/Payment.aspx
+		Registration/PersonalInfo.aspx
+		SmallGroup\SgAddNewHouseholdMember.aspx
+		SmallGroup\SgAddNewMember.aspx
+		SmallGroup\SgEmailGroup.aspx
+		SmallGroup\SgFaq.aspx
+		SmallGroup\SgFindMember.aspx
+		SmallGroup\SgHome.aspx
+		SmallGroup/SgManageContact.aspx
+		SmallGroup\SgManageMember.aspx
+		SmallGroup/SgMembers.aspx
+		SmallGroup\SgPostAttendance.aspx
+		SmallGroup\SgViewAttendance.aspx
+		SmallGroup/SgViewContacts.aspx
+		Volunteer\VaConfirmation.aspx
+		Volunteer\VaPersonalInfo.aspx
+		Volunteer\VaReference.aspx
+		Volunteer\VolunteerApplication.aspx
+	*/
+	border-color:#7f7f7f;
+	border-style:solid;
+	border-width:1px;
+}
+
+/*	Small Group menu styles  
+
+	Menu Structure:
+		Home 
+		Members			
+			View Members
+			Find Individual
+		Attendance
+			Post Attendance
+			View Attendance
+		Contacts
+			Email Group
+			View Contacts
+
+	To better understand how styles are applied to the menu you need to first how it is structured.
+	The menu consist of one main group which contains a series of menu items. Now each menu item
+	contained within the main group can have a single subgroup. These subgroups intern can have
+	one or more menuitems which can have one subgroup. As you can see the nesting is infinite.
+
+	Now, all styles that begin with TopGroup apply menus one main group, and styles that begin with
+	TopGroup and contain Item apply to the items contained within the main group.
+
+	TODO: add additional style documentation
+
+*/
+
+/* Applies to the top level group (menu) which contains the individual menu items i.e. Home, Members, etc.  */
+.TopGroup{
+	padding:0px;
+}
+
+/* Applies to the individual top level menu items i.e. Home vs. Members.  */
+.TopGroupItem{
+	background-color:#7f7f7f;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	color: #ffffff;
+	padding:1px 0px 0px 0px;
+	cursor:default;
+	white-space: nowrap;
+	font-weight:bold;
+}
+
+/* Applies to the individual top level menu items on mouse over event */
+.TopGroupItemOver{
+	background-color: #7f7f7f; 
+	color:#ffffff;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	padding:1px 0px 0px 0px;
+	cursor:pointer;
+	font-weight:bold;
+	border-width:1px;
+	border-color:#cccccc;
+	white-space: nowrap;
+}
+
+/* Applies to the submenu groups of menu items that have subitems */
+.MenuGroup{
+	padding:0px 0px 0px 0px;
+	margin:4px 0px 0px 0px;
+	border-top: solid 1px #f1f1f1;
+	border-left: solid 1px #f1f1f1;
+}
+
+/* Applies to the menu items contained within the submenu groups  */
+.MenuItem{
+	background-color:#7f7f7f;
+	color:#ffffff;
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	padding:2px 5px 3px 0px;
+	cursor:default;
+	white-space: nowrap;
+}
+
+/* This style is the stuff under the main headings on mouse over  */
+.MenuItemOver {
+	background-color:#5C5C5C; 
+	color:#ffffff; 
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	padding:2px 5px 3px 0px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+
+/*	Calendar styles */
+.BackColor{
+ background-color:#f1f1f1;
+}
+.CSCCalendar{
+   border-right: lightgrey ridge;
+   border-top: lightgrey ridge;
+   font-size: 8pt;
+   filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=3, OffY=3, Color= 'gray' , Positive= 'true' ) progid:DXImageTransform.Microsoft.Alpha( Opacity=100, FinishOpacity=20, Style=1, StartX=96, FinishX=100, StartY=0, FinishY=0) progid:DXImageTransform.Microsoft.Alpha( Opacity=100, FinishOpacity=20, Style=1, StartX=0, FinishX=0, StartY=97, FinishY=100);
+   border-left: lightgrey ridge;
+   border-bottom: lightgrey ridge;
+   font-family: Arial;
+   background-color: #000000;
+}
+.CSCCalendar TABLE{
+   font-size: 8pt;
+   font-family: Arial;
+   background-color: white;
+}
+.CSCCalendarNoFilter{
+   border-right: lightgrey ridge;
+   border-top: lightgrey ridge;
+   font-size: 8pt;
+   border-left: lightgrey ridge;
+   border-bottom: lightgrey ridge;
+   font-family: Arial;
+   background-color: white;
+}
+.CSCCalendarNoFilter TABLE{
+   font-size: 8pt;
+   font-family: Arial;
+   background-color: white;
+}
+.CSCWeekRowsTable{
+   border-right: black 1px solid;
+   border-top: black 1px solid;
+   font-size: 8pt;
+   border-left: black 1px solid;
+   border-bottom: black 1px solid;
+   font-family: Arial;
+   background-color: white;
+}
+.CSCDay{
+   cursor: pointer;  /* W3C approved hand. See http://www.xs4all.nl/~ppk/css2tests/index.html */
+   cursor: hand;
+   background-color: #f1f1e4;
+}
+.CSCSelectedDay{
+	 color: White;
+   background-color: #999966;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCSelectedToday{
+   font-weight: bold;
+   color: White;
+   background-color: #999966;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCToday{
+   color: White;
+   background-color: #336699;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCSpecialDay{
+   cursor: pointer;
+   cursor: hand;
+   background-color: lemonchiffon;
+}
+.CSCOtherMonthDays{
+   cursor: default;
+   color: gray;
+}
+.CSCWeekNumberColumn{
+   border-right: #336699 1px solid;
+   background-color: #336699;
+   color: White;
+}
+.CSCDayHeader{
+   border-bottom: #999966 1px solid;
+}
+.CSCDayHeader TR{
+   font-size: 7pt;
+   background-color: #336699;
+   color: White;
+}
+.CSCDayHeaderCell{
+   font-size: 7pt;
+}
+.CSCHeaderTable{
+   font-size: 8pt;
+   border-bottom: #336699 1px solid;
+   font-family: Arial;
+}
+.CSCHeaderRows{
+   font-size: 8pt;
+   font-family: Arial;
+   cursor: default;
+}
+.CSCHeaderRows TR{
+   background-color: inherit;
+}
+.CSCIncrementalButtons{
+   cursor: pointer;
+   cursor: hand;
+   color: #336699;
+}
+.CSCIncrementalButtonsPressed{
+   cursor: pointer;
+   cursor: hand;
+   color: #336699;
+}
+.CSCJumpButtons{
+   color: #336699;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCJumpButtonsPressed{
+   color: #336699;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCCloseButton{
+   cursor: default;
+}
+.CSCCloseButtonPressed{
+   cursor: default;
+}
+.CSCHelpButton{
+   cursor: default;
+}
+.CSCHelpButtonPressed{
+   cursor: default;
+}
+.CSCFooterTable{
+}
+.CSCFooterTable TABLE{
+}
+.CSCFooterButton{
+   border-right: lightgrey thin outset;
+   border-top: lightgrey thin outset;
+   border-left: lightgrey thin outset;
+   color: black;
+   border-bottom: lightgrey thin outset;
+   background-color: lightblue;
+   font-size: 8pt;
+   font-family: Arial;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCFooterButtonPressed{
+   border-right: lightgrey thin inset;
+   border-top: lightgrey thin inset;
+   border-left: lightgrey thin inset;
+   border-bottom: lightgrey thin inset;
+   background-color: lightblue;
+   color: black;
+   font-size: 8pt;
+   font-family: Arial;
+   cursor: pointer;
+   cursor: hand;
+}
+.CSCFooterCurrentDate{
+}
+.SD_Selectable1{
+   background-color: mistyrose;
+   cursor: pointer;
+   cursor: hand;
+}
+.SD_SelectableOM1{
+   background-color: #336699;
+   cursor: pointer;
+   cursor: hand;
+}
+.SD_Selectable2{
+   background-color: palegoldenrod;
+   cursor: pointer;
+   cursor: hand;
+}
+.SD_SelectableOM2{
+   background-color: gainsboro;
+   cursor: pointer;
+   cursor: hand;
+}
+.SD_Unselectable1{
+   color: gray;
+   background-color: mistyrose;
+}
+.SD_UnselectableOM1{
+   color: gray;
+   background-color: #336699; 
+}
+.SD_Unselectable2{
+   color: gray;
+   background-color: palegoldenrod;
+}
+.SD_UnselectableOM2{
+   color: gray;
+   background-color: gainsboro;
+}
+.DTBToggleCalendar{
+}
+.DTBToggleCalendarPressed{
+}
+.DTBHelpButton{
+}
+.DTBHelpButtonPressed{
+}
+.MYPMonthYearPicker{
+   border-right: gray 1px solid;
+   border-top: gray 1px solid;
+   font-size: 8pt;
+   border-left: gray 1px solid;
+   border-bottom: gray 1px solid;
+   font-family: Arial;
+   background-color: white;
+}
+.MYPMonthYearPicker TABLE{
+   font-size: 8pt;
+   font-family: Arial;
+   background-color: white;
+}
+.MYPMonthTable{
+}
+.MYPYearTable{
+}
+.MYPMonthCell{
+   cursor: pointer;
+   cursor: hand;
+}
+.MYPSelectedMonthCell{
+   background-color: #999966;
+   cursor: pointer;
+   cursor: hand;
+   color: white;
+}
+.MYPYearCell{
+   cursor: pointer;
+   cursor: hand;
+}
+.MYPSelectedYearCell{
+   cursor: pointer;
+   cursor: hand;
+   background-color: #999966;
+   color: white;
+}
+.MYPOutOfRangeCell{
+   color: Gray;
+}
+.MYPMoveYearsButtons{
+}
+.MYPMoveYearsButtonsPressed{
+}
+.MYPTogglePicker{
+	}
+.MYPTogglePickerPressed{
+	}
+.PDPContextMenu{
+   border-right: lightgrey 1px solid;
+   border-top: lightgrey 1px solid;
+   font-size: 8pt;
+   border-left: lightgrey 1px solid;
+   border-bottom: lightgrey 1px solid;
+   font-family: Arial;
+   background-color: white;
+}
+.PDPContextMenu TABLE{
+   font-size: 8pt;
+   font-family: Arial;
+   background-color: white;
+}
+.textsmerr1 {
+	COLOR: #FF0000; FONT-FAMILY: Arial,Helvetica,sans-serif; FONT-SIZE: 8pt
+}
+.ValidationSummary {
+	font-size: 11px;
+	font-family: tahoma, arial, helvetica;
+	text-decoration: none;
+	color: #FF0000;
+	background-color:#F9F6D8;
+	border-color:#FC040A;
+
+}
+
+.ValidationBorder
+{
+	border: solid 1px #FC040A
+}
