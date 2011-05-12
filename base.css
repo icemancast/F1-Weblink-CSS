@@ -1,0 +1,399 @@
+/* RESET ALL */
+/*------------------------------------------------------------------------
+
+version:	1.0
+created:	2009-10-08
+author:		icemancast
+email:		icemancast@gmail.com
+site:		http://www.icemancast.com
+
+------------------------------------------------------------------------*/
+*, blockquote, body, code, fieldset, form, h1, h2, h3, h4, h5, h6, html, input, legend, li, ol, p, textarea, td, th, ul { 
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	height: 100%;
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0px;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+sup{
+	vertical-align: text-top;
+}
+
+sub{
+	vertical-align: text-bottom;
+}
+
+caption, th {
+	text-align: left;
+}
+
+li {
+	list-style:none;
+}
+
+/* Png Hack for IE6 */
+/*
+	TODO Add iepngfix file to images folder
+*/
+img, div { 
+	behavior: url(../images/iepngfix.htc)
+}
+
+/* Typography */
+body {
+	font: 13px/1.231 Arial, Helvetica, sans-serif;
+	*font-size:small;
+	*font:x-small;
+}
+
+select, input, button, textarea {
+	font: 99% Arial, Helvetica, sans-serif;
+}
+
+input, textarea, select {
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	*font-size: 100%;
+}
+
+caption, cite, code, em, strong, th {
+	font-style: normal;
+	font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+
+table {
+	font-size:inherit;
+	font:100%;
+}
+
+code {
+	font: inherit;
+	*font-size:108%;
+	line-height:100%;
+}
+
+/* Widths
+------------------------------------------------------------------------*/
+.oldSchool {
+	width: 778px;
+}
+
+.site-width {
+	width: 980px;
+}
+
+.width980{
+	width: 980px;
+}
+
+.liquid{
+	width: auto;
+	margin: 0;
+}
+
+/* Columns and divs structures
+------------------------------------------------------------------------*/
+#wrapper {
+	margin: 0 auto;
+	text-align: left;
+}
+
+/* Content area
+------------------------------------------------------------------------*/
+#content {
+	float: left;
+}
+
+#main-content {
+	overflow: hidden;
+}
+
+.margin10 {
+	margin: 10px;
+}
+
+.margin5 {
+	margin: 5px;
+}
+
+.left {
+	float:left;
+}
+
+.right {
+	float: right;
+}
+
+#footer {
+	clear: both;
+	margin: 0px auto;
+}
+
+/* Grids
+------------------------------------------------------------------------*/
+.block {
+	float: left;
+}
+
+.size1of1 {
+	float:none;
+}
+
+.size1of2 {
+	width: 50%;
+}
+
+.size1of3 {
+	width: 33.33333%;
+}
+
+.size2of3 {
+	width: 66.66666%;
+}
+
+.size1of4 {
+	width: 25%;
+}
+
+.size3of4 {
+	width:75%;
+}
+
+.size1of5 {
+	width:20%;
+}
+
+.size2of5 {
+	width: 40%;
+}
+
+.size3of5 {
+	width:60%;
+}
+
+.size4of5 {
+	width:80%;
+}
+
+.last-block {
+	float: none;
+	width:auto;
+}
+
+.media-block {
+	width: auto;
+}
+
+/* Set spacing */
+h1, h2, h3, h4, h5, h6, ul, ol, dl, p, blockquote {
+	padding: 10px;
+}
+
+table h1,table h2,table h3, table h4, table h5, table h6, table p, table ul, table ol, table dl, ul h1,ul h2, ul h3, ul h4, ul h5, ul h6, ul p, ul ul, ul ol, ul dl, ol h1, ol h2, ol h3, ol h4, ol h5, ol h6, ol p, ol ul, ol ol, ol dl {
+	padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-style: normal;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-bottom: 0px;
+}
+
+h6, .h6 {
+	font-style: italic;
+	font-weight: normal;
+}
+
+h1, .h1 {
+	font-size: 147%;
+}
+
+h2, .h2 {
+	font-size: 136%;
+}
+
+h3, .h3 {
+	font-size: 126%;
+}
+
+h4, .h4 {
+	font-size: 116%;
+}
+
+h5, .h5 {
+	font-size: 108%;
+}
+
+h6, .h6 {
+	font-size: 108%;
+}
+
+img {
+	display: block;
+	padding-bottom: 0px;
+}
+
+/* Give the power back to the peeps */
+em, cite {
+	font-style: italic;
+}
+
+cite {
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+}
+
+strong {
+	font-weight: bold;
+}
+
+hr {
+	border-width: 0 0 3px 0;
+	margin: 20px 10px 10px 10px;
+}
+
+#main-content ul li ul {
+	margin-bottom: 15px;
+}
+
+#main-content ul li ul li {
+	list-style-type: circle !important;
+}
+
+.no-bullets {
+	list-style-type: none !important;
+}
+
+/* Table properties */
+.table {
+	border-right: solid 1px transparent;
+	padding: 20px;
+	position: relative;
+	vertical-align: top;
+	zoom: 1;
+}
+
+table.table {
+	width: 100%;
+}
+
+.table caption {
+	font-weight: bold;
+	margin-bottom: 3px;
+}
+
+.table th, .table td {
+	padding: 5px 10px;
+	vertical-align: top;
+}
+
+.text-center th, .text-center td {
+	text-align: center;
+}
+
+.text-left th, .text-left td {
+	text-align: left;
+}
+
+.text-right th, .text-right td {
+	text-align: right;
+}
+
+.text-top th, .text-top th {
+	vertical-align: top;
+}
+
+.text-middle th, .text-middle th {
+	vertical-align: middle;
+}
+
+.text-bottom th, .text-bottom th {
+	vertical-align: bottom;
+}
+
+.table th {
+	font-weight: bold
+}
+
+code, blockquote {
+	border-collapse: collapse;
+	display: block;
+	margin: 15px;
+	padding: 5px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	text-indent: 5px;
+	padding-bottom: 15px;
+}
+
+/* Site specific extensions below
+------------------------------------------------------------------------*/
+
+/* Preload image backgrounds */
+.loadimages {
+	height: 1px;
+	left: -10px;
+	overflow: hidden;
+	position: absolute;
+	top: -10px;
+	width: 1px;
+}
+
+.no-background {
+	background: none !important;
+}
+
+.black {
+	color: #000;
+}
+
+.white {
+	color: #fff;
+}
+
+.clear {
+	clear: both;
+}
+
+.form-left fieldset {
+	border: none;
+}
+
+.form-left label {
+	float: left;
+	width: 150px !important;
+}	
+
+.form-left input {
+	margin-top: 0px !important;
+}
+
+.form-left p {
+	margin-bottom: 10ppx;
+}
